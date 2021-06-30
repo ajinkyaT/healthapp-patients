@@ -573,7 +573,7 @@ class _UserFormState extends State<UserForm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       appBar: customAppBar('', context),
       body: Material(
         color: Color(0xFFF8F8F8),
